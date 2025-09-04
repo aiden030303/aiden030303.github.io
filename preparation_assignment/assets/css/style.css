@@ -1,0 +1,118 @@
+.who-am-i-button {
+    background-color: white;
+    font-family: Rubik;
+    color: black;
+    border: none;
+    height: 72px;
+    width: 162px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 36px;
+    font-weight: bold;
+    font-size: 25;
+    cursor: pointer;
+    transition: 
+      background-color 0.5s,
+    color 0.5s;
+  }
+
+  .who-am-i-button:hover {
+    background-color: rgb(147, 112, 219);
+    color: white;
+  }
+
+  .who-am-i-button:active {
+    opacity: 0.7;
+  }
+
+
+a {
+  text-decoration: none;
+}
+
+ h1 {
+    color: white;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 15vh;
+    text-align: center;
+  }
+
+
+@font-face { font-family: Rubik; src: url('../fonts/Rubik-Light.ttf'); }
+@font-face { font-family: Rubik; font-weight: bold; src: url('../fonts/Rubik-Medium.ttf');}
+
+  body {
+    background-color: rgb(95, 99, 104);
+    height: 100vh;
+    background-attachment: fixed;
+  }
+
+h2 {
+  color: white;
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 8vh;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Rubik;
+  font-size: 4vh;
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right, rgb(95, 99, 104), rgb(33, 32, 36));
+}
+
+.back-to-title-button {
+    background-color: white;
+    font-family: Rubik;
+    color: black;
+    border: none;
+    height: 72px;
+    width: 162px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 36px;
+    font-weight: bold;
+    font-size: 25;
+    cursor: pointer;
+    transition: 
+      background-color 0.5s,
+    color 0.5s;
+  }
+
+  .back-to-title-button:hover {
+    background-color: rgb(255, 44, 0);
+    color: white;
+  }
+
+  .back-to-title-button:active {
+    opacity: 0.7;
+  }
+
+h3 {
+  font-family: Rubik;
+  font-size: 4vh;
+  color: rgb(237, 232, 208);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: Rubik;
+  font-size: 3.75vh;
+  color: white;
+  display: flex;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+span {
+  color: rgb(245, 73, 39);
+}
