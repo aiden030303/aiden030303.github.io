@@ -136,7 +136,7 @@ content {
 
 .container-nav {
   width: 100%;
-  margin: 0px auto 100px auto;
+  margin: 0px auto 350px auto;
   text-align: center;
 }
 
@@ -216,7 +216,7 @@ footer {
   border-radius: 50%;
 }
 
-.social-icons a i{
+.social-icons a i {
   font-size: 1.5em;
   color: #fff;
   opacity: 0.9;
