@@ -262,9 +262,20 @@ footer {
 } */
 
 .divider-sidepage {
-  height: 2px;
+  height: 3px;
   width: 100%;
-  background-color: #C8BFB3;
+  background: linear-gradient(
+      to right,
+      var(--black) 15%,
+      var(--purple) 25%,
+      var(--pink) 35%,
+      var(--red) 50%,
+      var(--yellow) 70%,
+      var(--black) 85%);
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+  /* background-color: #C8BFB3; */
 }
 
 .container-sidenav {
@@ -278,7 +289,7 @@ footer {
 
 .sidenav a {
   font-family: Rubik;
-  font-size: 16px;
+  font-size: 24px;
   color: #fff;
   display: inline-block;
   width: 200px;
@@ -348,7 +359,8 @@ footer {
 
 .content-container {
   float: left;
-  padding-top: 50px;
+  padding-top: 89px;
+  font-family: Rubik;
 }
 
 /* .things-i-like {
