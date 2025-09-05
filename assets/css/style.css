@@ -13,7 +13,7 @@
 
 .body-index {
   margin: 0;
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
   font-size: 24px;
   animation: fadeIn 4s;
@@ -35,7 +35,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 65vh;
   flex-direction: column;
 }
 
@@ -134,7 +134,7 @@ content {
   max-height: 350px;
 }
 
-.bottom-index {
+.container-nav {
   width: 100%;
   margin: 0px auto 100px auto;
   text-align: center;
@@ -142,7 +142,7 @@ content {
 
 .button {
   font-family: Rubik;
-  font-size: 16px;
+  font-size: 24px;
   color: #fff;
   display: inline-block;
   width: 200px;
@@ -197,11 +197,11 @@ content {
 
 footer {
   background-color: #000;
+  margin-top: 150px;
 }
 
 .footer-container {
   width: 100%;
-  padding: 70px 30px 20px;
 }
 
 .social-icons {
@@ -275,7 +275,6 @@ footer {
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
   animation: textShine 5s ease-in-out infinite alternate;
-  /* background-color: #C8BFB3; */
 }
 
 .container-sidenav {
@@ -294,7 +293,7 @@ footer {
   display: inline-block;
   width: 200px;
   padding: 15px;
-  margin: 75px 3% 0 3%;
+  margin: 50px 3% 0 3%;
   text-align: center;
   transition: ease-out 1s;
   border-radius: 10px;
@@ -307,12 +306,27 @@ footer {
 }
 
 .sidenav-home {
-  border: 1px solid var(--red);
+  border: 1px solid #B5AA9A;
 }
 
 .sidenav-home:hover {
+  background-color: rgba(181, 170, 154, 0.4);
+  color: #fff;
+}
+
+.sidenav-profile {
+  border: 1px solid var(--red);
+}
+
+.sidenav-profile:hover {
   background-color: rgba(167, 6, 5, 0.4);
   color: #fff;
+}
+
+.sidenav-profile-active {
+  border: 1px solid var(--red);
+  background-color: rgba(167, 6, 5, 0.4);
+  cursor: default;
 }
 
 .sidenav-dashboard {
@@ -324,6 +338,12 @@ footer {
   color: #fff;
 }
 
+.sidenav-dashboard-active {
+  border: 1px solid var(--purple);
+  background-color: rgba(174, 59, 252, 0.4);
+  cursor: default;
+}
+
 .sidenav-faq {
   border: 1px solid var(--pink);
 }
@@ -333,6 +353,12 @@ footer {
   color: #fff;
 }
 
+.sidenav-faq-active {
+  border: 1px solid var(--pink);
+  background-color: rgba(228, 73, 180, 0.4);
+  cursor: default;
+}
+
 .sidenav-blog {
   border: 1px solid var(--yellow);
 }
@@ -340,6 +366,12 @@ footer {
 .sidenav-blog:hover {
   background-color: rgba(255, 228, 122, 0.4);
   color: #fff;
+}
+
+.sidenav-blog-active {
+  border: 1px solid var(--yellow);
+  background-color: rgba(255, 228, 122, 0.4);
+  cursor: default;
 }
 
 .filler-image {
@@ -359,7 +391,7 @@ footer {
 
 .content-container {
   float: left;
-  padding-top: 89px;
+  padding-top: 64px;
   font-family: Rubik;
 }
 
