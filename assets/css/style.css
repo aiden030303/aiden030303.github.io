@@ -1,10 +1,10 @@
 :root {
-  --black: #000000;
-  --purple: #ae3bfc;
-  --pink: #e449b4;
-  --red: #a70605;
-  --blue: #6caef8;
-  --yellow: #ffe47a;
+  --color1: #000000; /*current and original black: #000000*/
+  --color2: #ae3bfc; /*current and original purple: #ae3bfc*/
+  --color3: #e449b4; /*current and original pink: #e449b4*/
+  --color4: #a70605; /*current and original red: #a70605*/
+  --color5: #6caef8; /*current and original blue: 6caef8*/
+  --color6: #ffe47a; /*current and original yellow: ffe47a*/
   overflow-x: hidden;
 }
 
@@ -44,12 +44,12 @@ header {
     width: 80%;
     background: linear-gradient(
         to right,
-        var(--black) 15%,
-        var(--purple) 25%,
-        var(--pink) 35%,
-        var(--red) 50%,
-        var(--yellow) 70%,
-        var(--black) 85%);
+        var(--color1) 15%,
+        var(--color2) 25%,
+        var(--color3) 35%,
+        var(--color4) 50%,
+        var(--color6) 70%,
+        var(--color1) 85%);
     -webkit-text-fill-color: transparent;
     background-size: 500% auto;
     animation: textShine 5s ease-in-out infinite alternate;
@@ -61,11 +61,11 @@ header {
   margin: 5px;
   background: linear-gradient(
     to right,
-    var(--black) 15%,
-    var(--purple) 30%,
-    var(--pink) 45%,
-    var(--red) 65%,
-    var(--yellow) 80%);
+    var(--color1) 15%,
+    var(--color2) 30%,
+    var(--color3) 45%,
+    var(--color4) 65%,
+    var(--color6) 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -160,7 +160,7 @@ content {
 }
 
 .profile {
-  border: 1px solid var(--red);
+  border: 1px solid var(--color4);
 }
 
 .profile:hover {
@@ -169,7 +169,7 @@ content {
 }
 
 .dashboard {
-  border: 1px solid var(--purple);
+  border: 1px solid var(--color2);
 }
 
 .dashboard:hover {
@@ -178,7 +178,7 @@ content {
 }
 
 .faq {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--color3);
 }
 
 .faq:hover {
@@ -187,7 +187,7 @@ content {
 }
 
 .blog {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--color6);
 }
 
 .blog:hover {
@@ -244,11 +244,11 @@ footer {
   margin: 5px;
   background: linear-gradient(
     to right,
-    var(--black) 15%,
-    var(--purple) 30%,
-    var(--pink) 45%,
-    var(--red) 65%,
-    var(--yellow) 80%);
+    var(--color1) 15%,
+    var(--color2) 30%,
+    var(--color3) 45%,
+    var(--color4) 65%,
+    var(--color6) 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -266,12 +266,12 @@ footer {
   width: 100%;
   background: linear-gradient(
       to right,
-      var(--black) 15%,
-      var(--purple) 25%,
-      var(--pink) 35%,
-      var(--red) 50%,
-      var(--yellow) 70%,
-      var(--black) 85%);
+      var(--color1) 15%,
+      var(--color2) 25%,
+      var(--color3) 35%,
+      var(--color4) 50%,
+      var(--color6) 70%,
+      var(--color1) 85%);
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
   animation: textShine 5s ease-in-out infinite alternate;
@@ -315,7 +315,7 @@ footer {
 }
 
 .sidenav-profile {
-  border: 1px solid var(--red);
+  border: 1px solid var(--color4);
 }
 
 .sidenav-profile:hover {
@@ -324,13 +324,13 @@ footer {
 }
 
 .sidenav-profile-active {
-  border: 1px solid var(--red);
+  border: 1px solid var(--color4);
   background-color: rgba(167, 6, 5, 0.4);
   cursor: default;
 }
 
 .sidenav-dashboard {
-  border: 1px solid var(--purple);
+  border: 1px solid var(--color2);
 }
 
 .sidenav-dashboard:hover {
@@ -339,13 +339,13 @@ footer {
 }
 
 .sidenav-dashboard-active {
-  border: 1px solid var(--purple);
+  border: 1px solid var(--color2);
   background-color: rgba(174, 59, 252, 0.4);
   cursor: default;
 }
 
 .sidenav-faq {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--color3);
 }
 
 .sidenav-faq:hover {
@@ -354,13 +354,13 @@ footer {
 }
 
 .sidenav-faq-active {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--color3);
   background-color: rgba(228, 73, 180, 0.4);
   cursor: default;
 }
 
 .sidenav-blog {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--color6);
 }
 
 .sidenav-blog:hover {
@@ -369,7 +369,7 @@ footer {
 }
 
 .sidenav-blog-active {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--color6);
   background-color: rgba(255, 228, 122, 0.4);
   cursor: default;
 }
