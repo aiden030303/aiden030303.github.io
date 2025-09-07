@@ -5,18 +5,24 @@
   --color4: #a70605; /*current and original red: #a70605*/
   --color5: #6caef8; /*current and original blue: 6caef8*/
   --color6: #ffe47a; /*current and original yellow: ffe47a*/
-  overflow-x: hidden;
 }
 
 @font-face { font-family: Rubik; src: url('../fonts/Rubik-Light.ttf'); }
 @font-face { font-family: Rubik; font-weight: bold; src: url('../fonts/Rubik-Medium.ttf');}
 
-.body-index {
+body {
   margin: 0;
   background-color: #000;
   color: #fff;
   font-size: 24px;
-  animation: fadeIn 4s;
+  animation: fadeIn 2s;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 3vh;
+  text-align: left;
+  padding: 5px 10px 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 @keyframes fadeIn {
@@ -222,15 +228,6 @@ footer {
   opacity: 0.9;
 }
 
-.body-profile {
-  height: 200vh;
-  margin: 0;
-  background-color: #000000;
-  color: #fff;
-  font-size: 24px;
-  animation: fadeIn 1s;
-}
-
 .header-sidepage {
   background-color: #fff;
   display: flex;
@@ -255,11 +252,6 @@ footer {
   background-size: 500% auto;
   animation: textShine 5s ease-in-out infinite alternate;
 }
-/* 
-.content-container {
-  display: grid;  
-  grid-template-columns: 10% 45% 45%;
-} */
 
 .divider-sidepage {
   height: 3px;
@@ -278,8 +270,10 @@ footer {
 }
 
 .container-sidenav {
-  height: 200vh;
+  height: 90vh;
   width: 300px;
+  margin-top: 23px;
+  /* margin-bottom: 100px; */
   z-index: 0;
   left: 0;
   position: sticky;
@@ -374,28 +368,67 @@ footer {
   cursor: default;
 }
 
+
+#profile-header {
+  font-family: Rubik;
+  font-size: 8vh;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-family: Rubik;
+  font-weight: normal;
+  font-size: 3vh;
+  color: #B5AA9A;
+}
+
 .filler-image {
   max-width: 300px;
   max-height: 300px;
-  padding: 100px 100px 10px 100px;
+  padding: 35px 35px 10px 35px;
 }
 
-#filler-text {
+.container-content {
+  padding-top: 64px;
+  font-family: Rubik;
+  margin-left: 300px;
+}
+
+.music-i-like {
   color: #fff;
   font-family: Rubik;
-  font-size: 2vh;
-  text-align: center;
-  padding: 10px 10px 10px 20px;
+  font-size: 3vh;
+  text-align: left;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0px;
   margin-right: 200px;
 }
 
-.content-container {
-  float: left;
-  padding-top: 64px;
+table {
+  width: 100%;
   font-family: Rubik;
+  font-size: 2.5vh;
 }
 
-/* .things-i-like {
+tr.title td {
   font-family: Rubik;
-  padding: 30px 0px 25px 50px;
-} */
+  font-size: 3.5vh;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+}
+
+tr th {
+  padding-bottom: 10px;
+}
+
+.spacer td {
+  padding-top: 70px;
+}
+
+.footnote {
+  font-style: italic;
+  font-size: 16px;
+}
