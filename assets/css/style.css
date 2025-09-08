@@ -5,6 +5,7 @@
   --color4: #a70605; /*current and original red: #a70605*/
   --color5: #6caef8; /*current and original blue: 6caef8*/
   --color6: #ffe47a; /*current and original yellow: ffe47a*/
+  /* --clr-button1-hover # */
 }
 
 @font-face { font-family: Rubik; src: url('../fonts/Rubik-Light.ttf'); }
@@ -328,7 +329,8 @@ footer {
 }
 
 .sidenav-dashboard:hover {
-  background-color: rgba(174, 59, 252, 0.4);
+  /* background-color: rgba(174, 59, 252, 0.4); */
+  background-color: #ae3bfc60; /*"60" after hex code makes opacity the same as rgba(x, x, x, 0.4)*/
   color: #fff;
 }
 
@@ -367,7 +369,6 @@ footer {
   background-color: rgba(255, 228, 122, 0.4);
   cursor: default;
 }
-
 
 #profile-header {
   font-family: Rubik;
@@ -435,7 +436,6 @@ tr th {
   font-size: 16px;
 }
 
-
 summary {
   font-family: Rubik;
   font-size: 3vh;
@@ -450,7 +450,57 @@ h3 {
   margin-top: 15px;
 }
 
-.hz-website {
-  color: var(--color5);
+.faq-link {
+  color: var(--color4);
   text-decoration: none;
+  transition: color 0.5s;
+}
+
+.faq-link:hover {
+  color: var(--color3);
+}
+
+summary {
+  color: #B5AA9A; 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: Rubik;
+}
+
+.gallery > .item {
+  margin: 0px 10px 10px 0px;
+  width: 200px;
+  border-radius: 10px;
+  transition: all ease-in-out .5s;
+  /* box-shadow: 0 5px 10px 0 #B5AA9A60; */
+  border-bottom: 5px solid #a7060500;
+  padding-top: 10px;
+  background-color: #a7060560;
+}
+
+.gallery .visual {
+  width: 100%;
+}
+
+.gallery .item:hover {
+  border-color: var(--color3);
+  transform: scale(1.3);
+  background-color: #a7060599;
+}
+
+.gallery .item div {
+  text-align: center;
+}
+
+.gallery-title {
+  font-weight: bold;
+  font-size: 3.5vh;
+}
+
+.gallery-desc {
+  font-size: 2vh;
 }
