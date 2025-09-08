@@ -434,3 +434,23 @@ tr th {
   font-style: italic;
   font-size: 16px;
 }
+
+
+summary {
+  font-family: Rubik;
+  font-size: 3vh;
+  padding: 20px;
+  margin-top: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+h3 {
+  font-family: Rubik;
+  font-size: 5vh;
+  margin-top: 15px;
+}
+
+.hz-website {
+  color: var(--color5);
+  text-decoration: none;
+}
