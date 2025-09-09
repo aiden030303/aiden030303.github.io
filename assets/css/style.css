@@ -537,3 +537,17 @@ aside a {
 aside a:hover {
   color: var(--color3);
 } 
+ 
+.card-anchor {
+margin: 0px 50px 50px 0px;
+width: 250px;
+height: 200px;
+border-radius: 10px;
+transition: all ease-in-out .5s;
+border-bottom: 5px solid #6caef800;
+padding-top: 10px;
+cursor: pointer;
+color: #fff;
+text-decoration: none;
+background-color: var(--clr-button1-hover);
+} 
