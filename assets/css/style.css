@@ -1,11 +1,11 @@
 :root {
-  --color1: #000000; /*current black: #000000*/
-  --color2: #0077B6; /*v2 #91c2fa v1 purple: #ae3bfc*/
-  --color3: #00B4D8; /*v2 #b6d7fc v1 pink: #e449b4*/
+  --color1: #90E0EF; /*current black: #000000*/
+  --color2: #00B4D8; /*v2 #91c2fa v1 purple: #ae3bfc*/
+  --color3: #f72585; /*v2 #b6d7fc v1 pink: #e449b4*/
   --color4: #0077B6; /*v2 #6caef8  v1 red: #a70605*/
   /* --color5: #6caef8; v1 blue: 6caef8 */
-  --color6: #90E0EF; /*v2 #daebfd v1 yellow: ffe47a*/
-  --clr-button1-hover: #0077B650; /*v1 blue :#6caef860 */
+  --color6: #90E0EF; /*v2 #daebfd v1 yellow: ffe47a*/ 
+  --clr-button1-hover: #f7258570; /*v1 blue :#6caef860 */
 }
 
 @font-face { font-family: Rubik; src: url('../fonts/Rubik-Light.ttf'); }
@@ -441,7 +441,7 @@ summary {
 .gallery .item:hover {
   border-color: var(--color3);
   transform: scale(1.2);
-  background-color: #6caef899;
+  background-color: var(--color4);
 }
 
 .gallery .item div {
@@ -476,13 +476,13 @@ summary {
   border-bottom: 5px solid #6caef800;
   padding-top: 10px;
   cursor: pointer;
-  background-color: var(--clr-button1-hover);
+  background-color: #0077B699;
 }
 
 #item-aside:hover {
   border-color: var(--color3);
   transform: scale(1.1);
-  background-color: #6caef899;
+  background-color: var(--color4);
 }
 
 #aside-title {
@@ -502,7 +502,7 @@ aside a {
 }
 
 aside a:hover {
-  color: var(--color4);
+  color: var(--color3);
 } 
  
 .card-anchor {
@@ -516,5 +516,5 @@ padding-top: 10px;
 cursor: pointer;
 color: #fff;
 text-decoration: none;
-background-color: var(--clr-button1-hover);
+background-color: #0077B699;
 } 
