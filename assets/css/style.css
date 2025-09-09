@@ -155,42 +155,6 @@ content {
   background-color: var(--clr-button1-hover);
 }
 
-/* .profile {
-  border: 1px solid var(--color4);
-}
-
-.profile:hover {
-  background-color: rgba(167, 6, 5, 0.4);
-  color: #fff;
-}
-
-.dashboard {
-  border: 1px solid var(--color2);
-}
-
-.dashboard:hover {
-  background-color: rgba(174, 59, 252, 0.4);
-  color: #fff;
-}
-
-.faq {
-  border: 1px solid var(--color3);
-}
-
-.faq:hover {
-  background-color: rgba(228, 73, 180, 0.4);
-  color: #fff;
-}
-
-.blog {
-  border: 1px solid var(--color6);
-}
-
-.blog:hover {
-  background-color: rgba(255, 228, 122, 0.4);
-  color: #fff;
-}  */
-
 footer {
   background-color: #000;
   margin-top: 150px;
@@ -458,7 +422,7 @@ summary {
   margin-top: 8px;
 }
 
-.gallery > .item {
+/* .gallery > .item {
   margin: 0px 50px 50px 0px;
   width: 250px;
   height: 200px;
@@ -468,7 +432,7 @@ summary {
   padding-top: 10px;
   cursor: pointer;
   background-color: var(--clr-button1-hover);
-}
+} */
 
 .gallery .visual {
   width: 100%;
@@ -503,8 +467,8 @@ summary {
 
 #item-aside {
   margin: 0px 50px 50px 10px;
-  width: 250px;
-  height: 250px;
+  width: 325px;
+  height: 325px;
   border-radius: 10px;
   transition: all ease-in-out .5s;
   border-bottom: 5px solid #6caef800;
@@ -524,7 +488,8 @@ summary {
 }
 
 aside a {
-  color: var(--color4);
+  /* color: var(--color4); */
+  color: #fff;
   transition: color 0.5s;
   text-decoration: none;
   border-bottom: 1px solid var(--color3);
@@ -535,13 +500,13 @@ aside a {
 }
 
 aside a:hover {
-  color: var(--color3);
+  color: var(--color4);
 } 
  
 .card-anchor {
 margin: 0px 50px 50px 0px;
-width: 250px;
-height: 200px;
+width: 325px;
+height: 225px;
 border-radius: 10px;
 transition: all ease-in-out .5s;
 border-bottom: 5px solid #6caef800;
