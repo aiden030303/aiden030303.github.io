@@ -1,11 +1,11 @@
 :root {
-  --color1: #000000; /*current  original black: #000000*/
-  --color2: #91c2fa; /*current #91c2fa original purple: #ae3bfc*/
-  --color3: #b6d7fc; /*current #b6d7fc original pink: #e449b4*/
-  --color4: #6caef8; /*current #6caef8  original red: #a70605*/
-  /* --color5: #6caef8; current  original blue: 6caef8 */
-  --color6: #daebfd; /*current #daebfd original yellow: ffe47a*/
-  --clr-button1-hover: #6caef860;
+  --color1: #000000; /*current black: #000000*/
+  --color2: #0077B6; /*v2 #91c2fa v1 purple: #ae3bfc*/
+  --color3: #00B4D8; /*v2 #b6d7fc v1 pink: #e449b4*/
+  --color4: #0077B6; /*v2 #6caef8  v1 red: #a70605*/
+  /* --color5: #6caef8; v1 blue: 6caef8 */
+  --color6: #90E0EF; /*v2 #daebfd v1 yellow: ffe47a*/
+  --clr-button1-hover: #0077B650; /*v1 blue :#6caef860 */
 }
 
 @font-face { font-family: Rubik; src: url('../fonts/Rubik-Light.ttf'); }
@@ -452,10 +452,12 @@ summary {
   font-weight: bold;
   font-size: 3.5vh;
   border-bottom: 1px solid var(--color3);
+  padding: 10px;
 }
 
 .gallery-desc {
   font-size: 2vh;
+  padding: 10px;
 }
 
 .container-aside {
