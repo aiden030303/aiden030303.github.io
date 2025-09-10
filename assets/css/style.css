@@ -255,65 +255,20 @@ footer {
   background-color: var(--clr-button1-hover);
 }
 
-/* .sidenav-home {
-  border: 1px solid #B5AA9A;
-}
-
-.sidenav-home:hover {
-  background-color: rgba(181, 170, 154, 0.4);
-  color: #fff;
-}
-
-.sidenav-profile {
-  border: 1px solid var(--color4);
-}
-
-.sidenav-profile:hover {
-  background-color: rgba(167, 6, 5, 0.4);
-  color: #fff;
-} */
-
 .sidenav-profile-active {
   background-color: var(--clr-button1-hover);
   cursor: default;
 }
-
-/* .sidenav-dashboard {
-  border: 1px solid var(--color2);
-}
-
-.sidenav-dashboard:hover {
-  background-color: #ae3bfc60; 
-  color: #fff;
-} */
 
 .sidenav-dashboard-active {
   background-color: var(--clr-button1-hover);
   cursor: default;
 }
 
-/* .sidenav-faq {
-  border: 1px solid var(--color3);
-}
-
-.sidenav-faq:hover {
-  background-color: rgba(228, 73, 180, 0.4);
-  color: #fff;
-} */
-
 .sidenav-faq-active {
   background-color: var(--clr-button1-hover);
   cursor: default;
 }
-
-/* .sidenav-blog {
-  border: 1px solid var(--color6);
-}
-
-.sidenav-blog:hover {
-  background-color: rgba(255, 228, 122, 0.4);
-  color: #fff;
-} */
 
 .sidenav-blog-active {
   background-color: var(--clr-button1-hover);
@@ -422,18 +377,6 @@ summary {
   margin-top: 8px;
 }
 
-/* .gallery > .item {
-  margin: 0px 50px 50px 0px;
-  width: 250px;
-  height: 200px;
-  border-radius: 10px;
-  transition: all ease-in-out .5s;
-  border-bottom: 5px solid #6caef800;
-  padding-top: 10px;
-  cursor: pointer;
-  background-color: var(--clr-button1-hover);
-} */
-
 .gallery .visual {
   width: 100%;
 }
@@ -490,7 +433,6 @@ summary {
 }
 
 aside a {
-  /* color: var(--color4); */
   color: #fff;
   transition: color 0.5s;
   text-decoration: none;
@@ -518,3 +460,11 @@ color: #fff;
 text-decoration: none;
 background-color: #0077B699;
 } 
+
+.blog-post-header {
+  font-family: Rubik;
+  font-size: 8vh;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
