@@ -468,3 +468,213 @@ background-color: #0077B699;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+
+
+/* ========================================================SCALING=====================================================*/
+/* ====================================================================================================================*/
+
+@media all and (max-width: 1500px) {
+
+}
+
+/* ====================================================================================================================*/
+
+@media all and (max-width: 1399px) {
+
+body, .music-i-like, summary, table, .gallery-desc {
+  font-size: 2vh;
+}
+
+summary {
+  padding: 10px 0px 10px 0px;
+  margin-top: 15px;
+}
+
+.button {
+  margin: 10px 1% 15px 1%;
+}
+
+}
+
+/* ====================================================================================================================*/
+
+@media all and (max-width: 1200px) {
+
+.fade-in {
+    font-size: 130px;
+}
+
+.container-sidenav {
+    width: 230px;
+}
+
+.button, .sidenav a {
+  width: 150px;
+}
+
+.container-content {
+    margin-left: 230px;
+}
+
+.card-anchor {
+    width: 310px;
+}
+
+}
+
+/* ====================================================================================================================*/
+
+@media all and (max-width: 992px) {
+
+body, .music-i-like, summary, table, .gallery-desc {
+  font-size: 1.5vh;
+}
+
+.fade-in {
+    font-size: 100px;
+}
+
+.container-nav {
+    margin: 0px auto 250px auto;
+}
+
+.button, .sidenav a {
+  width: 100px;
+  font-size: 18px;
+}
+
+.container-sidenav {
+    width: 180px;
+}
+
+.container-content {
+    margin-left: 180px;
+}
+
+.filler-image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h3 {
+    font-size: 4vh;
+}
+
+.card-anchor {
+    width: 240px;
+    margin: 0px 30px 30px 0px;
+}
+
+.gallery-title {
+    font-size: 2.5vh;
+}
+
+.header-text {
+    font-size: 8vh;
+}
+
+#profile-header {
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 2.2vh;
+}
+
+}
+
+/* ====================================================================================================================*/
+
+@media all and (max-width: 767px) {
+
+body, .music-i-like, summary, table, .gallery-desc {
+  font-size: 1.3vh;
+}
+
+header {
+  height: 60vh;
+}
+
+.fade-in {
+  font-size: 90px;
+}
+
+.button, .sidenav a {
+  width: 90px;
+}
+
+.container-sidenav {
+  width: 150px;
+}
+
+.container-content {
+  margin-left: 150px;
+}
+
+.filler-image {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.card-anchor {
+  width: 188px;
+  height: 170px;
+  margin: 0px 10px 10px 0px;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.music-i-like {
+  margin-right: 0px;
+}
+
+}
+
+/* ====================================================================================================================*/
+
+@media all and (max-width: 576px) {
+
+header {
+  height: 60vh;
+}
+
+.fade-in {
+  font-size: 60px;
+}
+
+#profile-header {
+    font-size: 4vh;
+}
+
+.button, .sidenav a {
+  width: 70px;
+  font-size: 14px;
+}
+
+.header-text {
+  font-size: 7vh;
+}
+
+.container-sidenav {
+  width: 120px;
+}
+
+.container-content {
+  margin-left: 120px;
+}
+
+.filler-image {
+  display: none;
+}
+
+.card-anchor {
+  width: 188px;
+  height: 170px;
+  margin: 0px 10px 10px 0px;
+}
+
+}
