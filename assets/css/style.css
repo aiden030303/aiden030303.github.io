@@ -227,7 +227,6 @@ footer {
   height: 85vh;
   width: 300px;
   margin-top: 23px;
-  /* margin-bottom: 100px; */
   z-index: 0;
   left: 0;
   position: sticky;
@@ -418,7 +417,6 @@ summary {
   transition: all ease-in-out .5s;
   border-bottom: 5px solid #6caef800;
   padding-top: 10px;
-  cursor: pointer;
   background-color: #0077B699;
 }
 
@@ -471,6 +469,13 @@ background-color: #0077B699;
 
 summary {
   cursor: pointer;
+}
+
+.down-arrow {
+  text-align: center;
+  padding-top: 85px;
+  font-size: 4vh;
+  color: #B5AA9A;
 }
 
 /* ========================================================SCALING=====================================================*/
