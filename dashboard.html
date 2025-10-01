@@ -38,28 +38,55 @@
           <th>Course number</th>
           <th>EC</th>
           <th>Tests</th>
-          <th>Grade</th>
+          <th>Completed</th>
         </tr>
         <tr>
           <td>Program- & Career Orientation (PCO)</td>
           <td>CU75001V3</td>
           <td>2.5</td>
           <td>Poster presentation/ website assesment</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-PCO"
+              name="course-PCO"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="0"
+            />
+          </td>
         </tr>
         <tr>
           <td>Computer Science Basics (CSB)</td>
           <td>CU75002V2</td>
           <td>5</td>
           <td>Written test</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-CSB"
+              name="course-CSB"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="1"
+            />
+          </td>
         </tr>
         <tr>
           <td>Programming Basics (PBA)</td>
           <td>CU75003V1</td>
           <td>5</td>
           <td>Case study exam</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-PBA"
+              name="course-PBA"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="2"
+            />
+          </td>
         </tr>
         <tr class="spacer">
           <td><!-- --></td>
@@ -74,19 +101,37 @@
           <th>Course number</th>
           <th>EC</th>
           <th>Tests</th>
-          <th>Grade</th>
+          <th>Completed</th>
         </tr>
         <tr>
           <td rowspan="2">Object-Oriented Programming (OOP)</td>
           <td rowspan="2">CU75004V1</td>
           <td>5</td>
           <td>Presentation</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-OOP"
+              name="course-OOP"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="3"
+            />
+          </td>
         </tr>
         <tr>
           <td>5</td>
           <td>Written test</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-OOP2"
+              name="course-OOP2"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="4"
+            />
+          </td>
         </tr>
         <tr class="spacer">
           <td><!-- --></td>
@@ -101,31 +146,67 @@
           <th>Course number</th>
           <th>EC</th>
           <th>Tests</th>
-          <th>Grade</th>
+          <th>Completed</th>
         </tr>
         <tr>
           <td rowspan="3">Framework Project 1</td>
           <td rowspan="3">CU75080V3</td>
           <td>5</td>
           <td>On-site case study exam</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FP1T1"
+              name="course-FP1T1"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="5"
+            />
+          </td>
         </tr>
         <tr>
           <td>2.5</td>
           <td>Group presentation on project result</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FP1T2"
+              name="course-FP1T2"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="6"
+            />
+          </td>
         </tr>
         <tr>
           <td>2.5</td>
           <td>Group portfolio with individual elements on requirements</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FP1T3"
+              name="course-FP1T3"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="7"
+            />
+          </td>
         </tr>
         <tr>
           <td>Business Understanding Basics</td>
           <td>CU75081V1</td>
           <td>2.5</td>
           <td>Video assignment</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-BUB"
+              name="course-BUB"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="8"
+            />
+          </td>
         </tr>
         <tr class="spacer">
           <td><!-- --></td>
@@ -140,24 +221,51 @@
           <th>Course number</th>
           <th>EC</th>
           <th>Tests</th>
-          <th>Grade</th>
+          <th>Completed</th>
         </tr>
         <tr>
           <td rowspan="3">Framework Project 2</td>
           <td rowspan="3">CU75011V4</td>
           <td>2.5</td>
           <td>Final delivery</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FP2T1"
+              name="course-FP2T1"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="9"
+            />
+          </td>
         </tr>
         <tr>
           <td>2.5</td>
           <td>Individual assessment</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FP2T2"
+              name="course-FP2T2"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="10"
+            />
+          </td>
         </tr>
         <tr>
           <td>5</td>
           <td>IT Development portfolio</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-FR2T3"
+              name="course-FP2T3"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="11"
+            />
+          </td>
         </tr>
         <tr class="spacer">
           <td><!-- --></td>
@@ -173,7 +281,7 @@
           <th>Course number</th>
           <th>EC</th>
           <th>Tests</th>
-          <th>Grade</th>
+          <th>Completed</th>
         </tr>
         <tr>
           <td>Year round</td>
@@ -181,7 +289,16 @@
           <td>CU75068V3</td>
           <td>12.5</td>
           <td>Criterium focused interview</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-YRT1"
+              name="course-YRT1"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="12"
+            />
+          </td>
         </tr>
         <tr>
           <td>3 and 4</td>
@@ -189,7 +306,16 @@
           <td>-</td>
           <td>5</td>
           <td>Portfolio</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-YRT2"
+              name="course-YRT2"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="13"
+            />
+          </td>
         </tr>
         <tr>
           <td>Year round</td>
@@ -197,17 +323,29 @@
           <td>-</td>
           <td>2.5</td>
           <td>Portfolio</td>
-          <td>x</td>
+          <td>
+            <input
+              type="checkbox"
+              id="course-YRT3"
+              name="course-YRT3"
+              class="dashboard-completed"
+              onclick="CalculateScore()"
+              value="14"
+            />
+          </td>
         </tr>
 
         <tr class="title">
           <td colspan="6">Total EC</td>
         </tr>
         <tr>
-          <th>x/60</th>
+          <th><span id="totalEC">x</span>/60</th>
         </tr>
       </table>
       <br />
+      <div class="progressbar">
+        <div class="progress" id="progress" style="width: 0%">0%</div>
+      </div>
       <br />
       <br />
       <p class="footnote">
@@ -236,5 +374,6 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
