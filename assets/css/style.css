@@ -98,10 +98,7 @@ content {
 }
 
 .hero-mouse {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  margin-left: -15px;
+  display: block;
   text-align: center;
   z-index: 100;
   font-size: 12px;
@@ -109,7 +106,19 @@ content {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+  width: 29px;
+  height: 49px;
+  margin: -350px auto 400px auto;
 }
+
+#up-arrow {
+  transform: rotate(180deg);
+}
+
+.footer-container .hero-mouse {
+  margin: 0px auto 150px auto;
+}
+
 .hero-mouse h3 {
   margin-left: -14px;
   padding-top: 15px;
@@ -536,13 +545,6 @@ summary {
   cursor: pointer;
 }
 
-.down-arrow {
-  text-align: center;
-  padding-top: 85px;
-  font-size: 4vh;
-  color: #B5AA9A;
-}
-
 .progressbar {
   background-color: #333;
   color: #000;
@@ -678,6 +680,10 @@ h3 {
 
 h2 {
     font-size: 2.2vh;
+}
+
+.hero-mouse {
+  margin: -200px auto 400px auto;
 }
 
 }
