@@ -188,7 +188,7 @@ content {
   width: calc(50% - 1px);
   float: left;
   padding-top: 600px;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #333;
 }
 
 #compsci-text {
