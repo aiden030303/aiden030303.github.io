@@ -129,18 +129,31 @@ content {
   height: 45px;
   border-radius: 15px;
   position: relative;
-  border: 2px solid #dedede;
+  border: 2px solid #333;
   text-align: center;
+  transition: ease-in-out 0.5s;
 }
+
 .mouse-icon span {
   width: 3px;
   height: 8px;
   margin: 2px auto 0;
   display: block;
-  background: #dedede;
+  background: #333;
   border-radius: 5px;
+  transition: ease-in-out 0.5s;
   -webkit-animation: 1.2s ease infinite wheel-up-down;
           animation: 1.2s ease infinite wheel-up-down;
+}
+
+.mouse-icon:hover {
+  border: 2px solid #dedede;
+  transition: ease-in-out 0.5s;
+}
+
+.mouse-icon:hover span {
+  background: #dedede;
+  transition: ease-in-out 0.5s;
 }
 
 @-webkit-keyframes wheel-up-down {
