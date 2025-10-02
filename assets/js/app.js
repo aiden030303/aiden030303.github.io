@@ -2,6 +2,10 @@ const creditsArray = [2.5, 5, 5, 5, 5, 5, 2.5, 2.5, 2.5, 2.5, 2.5, 5, 12.5, 5, 2
 
 const checkboxesList = document.querySelectorAll("input[type='checkbox']");
 
+/**
+ * Calculates totalEC
+ * makes porgress bar move based on totalEC
+ */
 function CalculateScore() {
   let totalEC = 0;
   checkboxesList.forEach(checkbox => {
@@ -11,8 +15,8 @@ function CalculateScore() {
   })
   document.getElementById("totalEC").innerHTML = totalEC;
 
-  let elementBar = document.getElementById("progress");
-  let totalPercentage = Math.round(totalEC * (10/6));
+  const elementBar = document.getElementById("progress");
+  const totalPercentage = Math.round(totalEC * (10/6));
   document.getElementById("progress").innerHTML = totalPercentage + "%";
   elementBar.style.width = totalPercentage + '%';
 }

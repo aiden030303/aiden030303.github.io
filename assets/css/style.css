@@ -392,6 +392,7 @@ table {
   width: 100%;
   font-family: Rubik;
   font-size: 2.5vh;
+  border-collapse: collapse;
 }
 
 tr.title td {
@@ -403,6 +404,10 @@ tr.title td {
 
 tr th {
   padding-bottom: 10px;
+}
+
+tr:hover {
+  background-color: #666;
 }
 
 .spacer td {
