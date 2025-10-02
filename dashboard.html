@@ -30,317 +30,364 @@
     <div class="container-content">
       <!--table quarter 1-->
       <table>
-        <tr class="title">
-          <td colspan="5">Q1</td>
-        </tr>
-        <tr>
-          <th>Course</th>
-          <th>Course number</th>
-          <th>EC</th>
-          <th>Tests</th>
-          <th>Completed</th>
-        </tr>
-        <tr>
-          <td>Program- & Career Orientation (PCO)</td>
-          <td>CU75001V3</td>
-          <td>2.5</td>
-          <td>Poster presentation/ website assesment</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-PCO"
-              name="course-PCO"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="0"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Computer Science Basics (CSB)</td>
-          <td>CU75002V2</td>
-          <td>5</td>
-          <td>Written test</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-CSB"
-              name="course-CSB"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="1"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Programming Basics (PBA)</td>
-          <td>CU75003V1</td>
-          <td>5</td>
-          <td>Case study exam</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-PBA"
-              name="course-PBA"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="2"
-            />
-          </td>
-        </tr>
-        <tr class="spacer">
-          <td><!-- --></td>
-        </tr>
-
-        <!--table quarter 2-->
-        <tr class="title">
-          <td colspan="5">Q2</td>
-        </tr>
-        <tr>
-          <th>Course</th>
-          <th>Course number</th>
-          <th>EC</th>
-          <th>Tests</th>
-          <th>Completed</th>
-        </tr>
-        <tr>
-          <td rowspan="2">Object-Oriented Programming (OOP)</td>
-          <td rowspan="2">CU75004V1</td>
-          <td>5</td>
-          <td>Presentation</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-OOP"
-              name="course-OOP"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="3"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Written test</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-OOP2"
-              name="course-OOP2"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="4"
-            />
-          </td>
-        </tr>
-        <tr class="spacer">
-          <td><!-- --></td>
-        </tr>
-
-        <!--table quarter 3-->
-        <tr class="title">
-          <td colspan="5">Q3</td>
-        </tr>
-        <tr>
-          <th>Course</th>
-          <th>Course number</th>
-          <th>EC</th>
-          <th>Tests</th>
-          <th>Completed</th>
-        </tr>
-        <tr>
-          <td rowspan="3">Framework Project 1</td>
-          <td rowspan="3">CU75080V3</td>
-          <td>5</td>
-          <td>On-site case study exam</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FP1T1"
-              name="course-FP1T1"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="5"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>2.5</td>
-          <td>Group presentation on project result</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FP1T2"
-              name="course-FP1T2"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="6"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>2.5</td>
-          <td>Group portfolio with individual elements on requirements</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FP1T3"
-              name="course-FP1T3"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="7"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Business Understanding Basics</td>
-          <td>CU75081V1</td>
-          <td>2.5</td>
-          <td>Video assignment</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-BUB"
-              name="course-BUB"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="8"
-            />
-          </td>
-        </tr>
-        <tr class="spacer">
-          <td><!-- --></td>
-        </tr>
-
-        <!--table quarter 4-->
-        <tr class="title">
-          <td colspan="5">Q4</td>
-        </tr>
-        <tr>
-          <th>Course</th>
-          <th>Course number</th>
-          <th>EC</th>
-          <th>Tests</th>
-          <th>Completed</th>
-        </tr>
-        <tr>
-          <td rowspan="3">Framework Project 2</td>
-          <td rowspan="3">CU75011V4</td>
-          <td>2.5</td>
-          <td>Final delivery</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FP2T1"
-              name="course-FP2T1"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="9"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>2.5</td>
-          <td>Individual assessment</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FP2T2"
-              name="course-FP2T2"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="10"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>IT Development portfolio</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-FR2T3"
-              name="course-FP2T3"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="11"
-            />
-          </td>
-        </tr>
-        <tr class="spacer">
-          <td><!-- --></td>
-        </tr>
-
-        <!--table more courses-->
-        <tr class="title">
-          <td colspan="6">More courses</td>
-        </tr>
-        <tr>
-          <th>Block(s)</th>
-          <th>Course</th>
-          <th>Course number</th>
-          <th>EC</th>
-          <th>Tests</th>
-          <th>Completed</th>
-        </tr>
-        <tr>
-          <td>Year round</td>
-          <td>Personal Proffessional Development Exploration</td>
-          <td>CU75068V3</td>
-          <td>12.5</td>
-          <td>Criterium focused interview</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-YRT1"
-              name="course-YRT1"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="12"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>3 and 4</td>
-          <td>IT personality</td>
-          <td>-</td>
-          <td>5</td>
-          <td>Portfolio</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-YRT2"
-              name="course-YRT2"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="13"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Year round</td>
-          <td>IT Personality International week(s)</td>
-          <td>-</td>
-          <td>2.5</td>
-          <td>Portfolio</td>
-          <td>
-            <input
-              type="checkbox"
-              id="course-YRT3"
-              name="course-YRT3"
-              class="dashboard-completed"
-              onclick="CalculateScore()"
-              value="14"
-            />
-          </td>
-        </tr>
-
-        <tr class="title">
-          <td colspan="6">Total EC</td>
-        </tr>
-        <tr>
-          <th><span id="totalEC">x</span>/60</th>
-        </tr>
+        <tbody>
+          <tr class="title">
+            <td colspan="5">Q1</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Course</th>
+            <th>Course number</th>
+            <th>EC</th>
+            <th>Tests</th>
+            <th>Completed</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Program- & Career Orientation (PCO)</td>
+            <td>CU75001V3</td>
+            <td>2.5</td>
+            <td>Poster presentation/ website assesment</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-PCO"
+                name="course-PCO"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="0"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Computer Science Basics (CSB)</td>
+            <td>CU75002V2</td>
+            <td>5</td>
+            <td>Written test</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-CSB"
+                name="course-CSB"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="1"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Programming Basics (PBA)</td>
+            <td>CU75003V1</td>
+            <td>5</td>
+            <td>Case study exam</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-PBA"
+                name="course-PBA"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="2"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="spacer">
+            <td><!-- --></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <!--table quarter 2-->
+          <tr class="title">
+            <td colspan="5">Q2</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Course</th>
+            <th>Course number</th>
+            <th>EC</th>
+            <th>Tests</th>
+            <th>Completed</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="2">Object-Oriented Programming (OOP)</td>
+            <td rowspan="2">CU75004V1</td>
+            <td>5</td>
+            <td>Presentation</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-OOP"
+                name="course-OOP"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="3"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Written test</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-OOP2"
+                name="course-OOP2"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="4"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="spacer">
+            <td><!-- --></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <!--table quarter 3-->
+          <tr class="title">
+            <td colspan="5">Q3</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Course</th>
+            <th>Course number</th>
+            <th>EC</th>
+            <th>Tests</th>
+            <th>Completed</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="3">Framework Project 1</td>
+            <td rowspan="3">CU75080V3</td>
+            <td>5</td>
+            <td>On-site case study exam</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FP1T1"
+                name="course-FP1T1"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="5"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2.5</td>
+            <td>Group presentation on project result</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FP1T2"
+                name="course-FP1T2"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="6"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2.5</td>
+            <td>Group portfolio with individual elements on requirements</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FP1T3"
+                name="course-FP1T3"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="7"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Business Understanding Basics</td>
+            <td>CU75081V1</td>
+            <td>2.5</td>
+            <td>Video assignment</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-BUB"
+                name="course-BUB"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="8"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="spacer">
+            <td><!-- --></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <!--table quarter 4-->
+          <tr class="title">
+            <td colspan="5">Q4</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Course</th>
+            <th>Course number</th>
+            <th>EC</th>
+            <th>Tests</th>
+            <th>Completed</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="3">Framework Project 2</td>
+            <td rowspan="3">CU75011V4</td>
+            <td>2.5</td>
+            <td>Final delivery</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FP2T1"
+                name="course-FP2T1"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="9"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>2.5</td>
+            <td>Individual assessment</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FP2T2"
+                name="course-FP2T2"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="10"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>IT Development portfolio</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-FR2T3"
+                name="course-FP2T3"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="11"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="spacer">
+            <td><!-- --></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <!--table more courses-->
+          <tr class="title">
+            <td colspan="6">More courses</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Block(s)</th>
+            <th>Course</th>
+            <th>Course number</th>
+            <th>EC</th>
+            <th>Tests</th>
+            <th>Completed</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Year round</td>
+            <td>Personal Professional Development Exploration</td>
+            <td>CU75068V3</td>
+            <td>12.5</td>
+            <td>Criterium focused interview</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-YRT1"
+                name="course-YRT1"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="12"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>3 and 4</td>
+            <td>IT personality</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Portfolio</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-YRT2"
+                name="course-YRT2"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="13"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Year round</td>
+            <td>IT personality International week(s)</td>
+            <td>-</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td>
+              <input
+                type="checkbox"
+                id="course-YRT3"
+                name="course-YRT3"
+                class="dashboard-completed"
+                onclick="CalculateScore()"
+                value="14"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="title">
+            <td colspan="6">Total EC</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th><span id="totalEC">0</span>/60</th>
+          </tr>
+        </tbody>
       </table>
       <br />
       <div class="progressbar">

@@ -406,8 +406,12 @@ tr th {
   padding-bottom: 10px;
 }
 
-tr:hover {
-  background-color: #666;
+tbody:hover {
+  background-color: #444;
+}
+
+tr.title:hover, tr.spacer, tr th {
+  background-color: #000;
 }
 
 .spacer td {
