@@ -256,6 +256,30 @@ footer {
   opacity: 0.9;
 }
 
+.social-icons a i.fa-youtube:hover  {
+  color: #ff0033;
+  transition: ease-in-out color 0.5s;
+}
+
+.social-icons a i.fa-twitter:hover  {
+  color: #1DA1F2;
+  transition: ease-in-out color 0.5s;
+}
+
+.social-icons a i.fa-instagram:hover  {
+  color: #feda75;
+  transition: ease-in-out color 0.5s;
+}
+
+.social-icons a i.fa-github:hover  {
+  color: #501DAF;
+  transition: ease-in-out color 0.5s;
+}
+
+.social-icons a i {
+  transition: ease-in-out color 0.5s;
+}
+
 .header-sidepage {
   background-color: #fff;
   display: flex;
