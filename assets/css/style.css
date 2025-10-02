@@ -562,7 +562,7 @@ summary {
 
 .progress {
   border-radius: 6px;
-  width: 100%;
+  max-width: 100%;
   background: linear-gradient(
         to right,
         var(--color1) 15%,

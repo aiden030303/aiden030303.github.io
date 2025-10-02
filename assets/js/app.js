@@ -14,15 +14,8 @@ function CalculateScore() {
     }
   })
   document.getElementById("totalEC").innerHTML = totalEC;
-
   const elementBar = document.getElementById("progress");
   const totalPercentage = Math.round(totalEC * (10/6));
   document.getElementById("progress").innerHTML = totalPercentage + "%";
   elementBar.style.width = totalPercentage + '%';
 }
-
-
-
-
-
- 
