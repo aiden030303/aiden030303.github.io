@@ -129,7 +129,7 @@ content {
   height: 45px;
   border-radius: 15px;
   position: relative;
-  border: 2px solid #333;
+  border: 2px solid #444;
   text-align: center;
   transition: ease-in-out 0.5s;
 }
@@ -139,7 +139,7 @@ content {
   height: 8px;
   margin: 2px auto 0;
   display: block;
-  background: #333;
+  background: #444;
   border-radius: 5px;
   transition: ease-in-out 0.5s;
   -webkit-animation: 1.2s ease infinite wheel-up-down;
@@ -188,7 +188,7 @@ content {
   width: calc(50% - 1px);
   float: left;
   padding-top: 600px;
-  border-right: 1px solid #333;
+  border-right: 1px solid #444;
 }
 
 #compsci-text {
